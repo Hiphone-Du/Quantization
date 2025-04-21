@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		857704FFBB7B534C69543BA3 /* Pods_Quantization.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7E14859860327660D9F274 /* Pods_Quantization.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		978D74F42DAB6D0C008D26D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 978D74D52DAB6D0A008D26D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 978D74DC2DAB6D0A008D26D3;
+			remoteInfo = Quantization;
+		};
+		978D74FE2DAB6D0C008D26D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 978D74D52DAB6D0A008D26D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 978D74DC2DAB6D0A008D26D3;
+			remoteInfo = Quantization;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4316A3853E44A27AD93F39B2 /* Pods-Quantization.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quantization.debug.xcconfig"; path = "Target Support Files/Pods-Quantization/Pods-Quantization.debug.xcconfig"; sourceTree = "<group>"; };
+		8F7E14859860327660D9F274 /* Pods_Quantization.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quantization.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		978D74DD2DAB6D0A008D26D3 /* Quantization.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quantization.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		978D74F32DAB6D0C008D26D3 /* QuantizationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuantizationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		978D74FD2DAB6D0C008D26D3 /* QuantizationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuantizationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD3408A5C90A297119B5B553 /* Pods-Quantization.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quantization.release.xcconfig"; path = "Target Support Files/Pods-Quantization/Pods-Quantization.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		978D75052DAB6D0C008D26D3 /* Exceptions for "Quantization" folder in "Quantization" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 978D74DC2DAB6D0A008D26D3 /* Quantization */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		978D74DF2DAB6D0A008D26D3 /* Quantization */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				978D75052DAB6D0C008D26D3 /* Exceptions for "Quantization" folder in "Quantization" target */,
+			);
+			path = Quantization;
+			sourceTree = "<group>";
+		};
+		978D74F62DAB6D0C008D26D3 /* QuantizationTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = QuantizationTests;
+			sourceTree = "<group>";
+		};
+		978D75002DAB6D0C008D26D3 /* QuantizationUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = QuantizationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		978D74DA2DAB6D0A008D26D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				857704FFBB7B534C69543BA3 /* Pods_Quantization.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		978D74F02DAB6D0C008D26D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		978D74FA2DAB6D0C008D26D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		978D74D42DAB6D0A008D26D3 = {
+			isa = PBXGroup;
+			children = (
+				978D74DF2DAB6D0A008D26D3 /* Quantization */,
+				978D74F62DAB6D0C008D26D3 /* QuantizationTests */,
+				978D75002DAB6D0C008D26D3 /* QuantizationUITests */,
+				978D74DE2DAB6D0A008D26D3 /* Products */,
+				E08B9A3C67357AB67580734A /* Pods */,
+				D07D2CE35A4B461ED261F64F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		978D74DE2DAB6D0A008D26D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				978D74DD2DAB6D0A008D26D3 /* Quantization.app */,
+				978D74F32DAB6D0C008D26D3 /* QuantizationTests.xctest */,
+				978D74FD2DAB6D0C008D26D3 /* QuantizationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D07D2CE35A4B461ED261F64F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F7E14859860327660D9F274 /* Pods_Quantization.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E08B9A3C67357AB67580734A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4316A3853E44A27AD93F39B2 /* Pods-Quantization.debug.xcconfig */,
+				AD3408A5C90A297119B5B553 /* Pods-Quantization.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		978D74DC2DAB6D0A008D26D3 /* Quantization */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 978D75062DAB6D0C008D26D3 /* Build configuration list for PBXNativeTarget "Quantization" */;
+			buildPhases = (
+				2ADDAF931407669B10A7C8E0 /* [CP] Check Pods Manifest.lock */,
+				978D74D92DAB6D0A008D26D3 /* Sources */,
+				978D74DA2DAB6D0A008D26D3 /* Frameworks */,
+				978D74DB2DAB6D0A008D26D3 /* Resources */,
+				5092EE7880D75135D15D91C5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				978D74DF2DAB6D0A008D26D3 /* Quantization */,
+			);
+			name = Quantization;
+			productName = Quantization;
+			productReference = 978D74DD2DAB6D0A008D26D3 /* Quantization.app */;
+			productType = "com.apple.product-type.application";
+		};
+		978D74F22DAB6D0C008D26D3 /* QuantizationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 978D750B2DAB6D0C008D26D3 /* Build configuration list for PBXNativeTarget "QuantizationTests" */;
+			buildPhases = (
+				978D74EF2DAB6D0C008D26D3 /* Sources */,
+				978D74F02DAB6D0C008D26D3 /* Frameworks */,
+				978D74F12DAB6D0C008D26D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				978D74F52DAB6D0C008D26D3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				978D74F62DAB6D0C008D26D3 /* QuantizationTests */,
+			);
+			name = QuantizationTests;
+			productName = QuantizationTests;
+			productReference = 978D74F32DAB6D0C008D26D3 /* QuantizationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		978D74FC2DAB6D0C008D26D3 /* QuantizationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 978D750E2DAB6D0C008D26D3 /* Build configuration list for PBXNativeTarget "QuantizationUITests" */;
+			buildPhases = (
+				978D74F92DAB6D0C008D26D3 /* Sources */,
+				978D74FA2DAB6D0C008D26D3 /* Frameworks */,
+				978D74FB2DAB6D0C008D26D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				978D74FF2DAB6D0C008D26D3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				978D75002DAB6D0C008D26D3 /* QuantizationUITests */,
+			);
+			name = QuantizationUITests;
+			productName = QuantizationUITests;
+			productReference = 978D74FD2DAB6D0C008D26D3 /* QuantizationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		978D74D52DAB6D0A008D26D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					978D74DC2DAB6D0A008D26D3 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					978D74F22DAB6D0C008D26D3 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 978D74DC2DAB6D0A008D26D3;
+					};
+					978D74FC2DAB6D0C008D26D3 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 978D74DC2DAB6D0A008D26D3;
+					};
+				};
+			};
+			buildConfigurationList = 978D74D82DAB6D0A008D26D3 /* Build configuration list for PBXProject "Quantization" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 978D74D42DAB6D0A008D26D3;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 978D74DE2DAB6D0A008D26D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				978D74DC2DAB6D0A008D26D3 /* Quantization */,
+				978D74F22DAB6D0C008D26D3 /* QuantizationTests */,
+				978D74FC2DAB6D0C008D26D3 /* QuantizationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		978D74DB2DAB6D0A008D26D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		978D74F12DAB6D0C008D26D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		978D74FB2DAB6D0C008D26D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2ADDAF931407669B10A7C8E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Quantization-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5092EE7880D75135D15D91C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Quantization/Pods-Quantization-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Quantization/Pods-Quantization-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Quantization/Pods-Quantization-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		978D74D92DAB6D0A008D26D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		978D74EF2DAB6D0C008D26D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		978D74F92DAB6D0C008D26D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		978D74F52DAB6D0C008D26D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 978D74DC2DAB6D0A008D26D3 /* Quantization */;
+			targetProxy = 978D74F42DAB6D0C008D26D3 /* PBXContainerItemProxy */;
+		};
+		978D74FF2DAB6D0C008D26D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 978D74DC2DAB6D0A008D26D3 /* Quantization */;
+			targetProxy = 978D74FE2DAB6D0C008D26D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		978D75072DAB6D0C008D26D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4316A3853E44A27AD93F39B2 /* Pods-Quantization.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M6LE63FR5P;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Quantization/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhile.demo.Quantization;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		978D75082DAB6D0C008D26D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD3408A5C90A297119B5B553 /* Pods-Quantization.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M6LE63FR5P;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Quantization/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhile.demo.Quantization;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		978D75092DAB6D0C008D26D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		978D750A2DAB6D0C008D26D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		978D750C2DAB6D0C008D26D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M6LE63FR5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhile.demo.QuantizationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quantization.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Quantization";
+			};
+			name = Debug;
+		};
+		978D750D2DAB6D0C008D26D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M6LE63FR5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhile.demo.QuantizationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quantization.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Quantization";
+			};
+			name = Release;
+		};
+		978D750F2DAB6D0C008D26D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M6LE63FR5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhile.demo.QuantizationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Quantization;
+			};
+			name = Debug;
+		};
+		978D75102DAB6D0C008D26D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M6LE63FR5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhile.demo.QuantizationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Quantization;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		978D74D82DAB6D0A008D26D3 /* Build configuration list for PBXProject "Quantization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				978D75092DAB6D0C008D26D3 /* Debug */,
+				978D750A2DAB6D0C008D26D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		978D75062DAB6D0C008D26D3 /* Build configuration list for PBXNativeTarget "Quantization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				978D75072DAB6D0C008D26D3 /* Debug */,
+				978D75082DAB6D0C008D26D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		978D750B2DAB6D0C008D26D3 /* Build configuration list for PBXNativeTarget "QuantizationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				978D750C2DAB6D0C008D26D3 /* Debug */,
+				978D750D2DAB6D0C008D26D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		978D750E2DAB6D0C008D26D3 /* Build configuration list for PBXNativeTarget "QuantizationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				978D750F2DAB6D0C008D26D3 /* Debug */,
+				978D75102DAB6D0C008D26D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 978D74D52DAB6D0A008D26D3 /* Project object */;
+}

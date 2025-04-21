@@ -1,0 +1,20 @@
+# Podfile
+platform :ios, '13.0'  # 根据你的项目需求调整最低版本
+use_frameworks!        # 必需，因为 SnapKit 是 Swift 框架
+
+target 'Quantization' do
+  # UI框架
+  pod 'SnapKit'
+  
+  # 网络请求
+  pod 'Alamofire'
+  pod 'SwiftyJSON'
+  
+  # 加密
+  pod 'CryptoSwift'
+  
+  # 图表库
+  pod 'Charts'
+
+  pod 'Toast-Swift'
+end
