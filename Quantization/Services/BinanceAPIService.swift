@@ -65,7 +65,7 @@ class BinanceAPIService {
     private func loadAPIConfiguration() {
         if let apiKey = UserDefaults.standard.string(forKey: Constants.UserDefaultsKeys.apiKey) {
             Constants.Binance.apiKey = apiKey
-        }
+        }//
         
         if let secretKey = UserDefaults.standard.string(forKey: Constants.UserDefaultsKeys.secretKey) {
             Constants.Binance.secretKey = secretKey
